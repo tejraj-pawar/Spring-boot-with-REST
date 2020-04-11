@@ -1,0 +1,18 @@
+Here we have doing this by three approaches: [follow SS for detailed info.]
+1] using spring jdbc
+2] using jpa with hibernate
+3] using spring data
+
+==========================
+1] using spring jdbc:
+/spring-database/src/main/java/com/yolo/spring/springdatabase/SpringJdbcApplication.java
+/spring-database/src/main/java/com/yolo/spring/springdatabase/jdbc/PersonJdbcDao.java
+==========================
+2] using jpa with hibernate:
+/spring-database/src/main/java/com/yolo/spring/springdatabase/SpringJpaApplication.java
+/spring-database/src/main/java/com/yolo/spring/springdatabase/jpa/PersonJpaRepository.java
+==========================
+3] using spring data:
+/spring-database/src/main/java/com/yolo/spring/springdatabase/SpringDataApplication.java
+/spring-database/src/main/java/com/yolo/spring/springdatabase/springdata/PersonSpringDataRepository.java
+
